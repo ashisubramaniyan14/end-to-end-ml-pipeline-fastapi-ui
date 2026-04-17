@@ -48,20 +48,8 @@ Data Source → Ingestion → ETL → Feature Engineering → Model Training →
 ---
 
 ## 📁 Project Structure
-├── data/
-│ ├── raw/
-│ └── processed/
-├── models/
-├── src/
-│ ├── ingestion/
-│ ├── etl/
-│ ├── features/
-│ ├── training/
-│ ├── api/
-│ └── utils/
-├── static/
-├── templates/
-├── README.md
+<img width="1160" height="590" alt="image" src="https://github.com/user-attachments/assets/c109836a-5031-415a-9947-2b07feb27388" />
+
 
 
 ---
@@ -83,6 +71,21 @@ uvicorn src.api.main:app --reload
 
 
 ### 4. Open UI
+
+After starting the FastAPI server locally, open:
+
+http://127.0.0.1:8000
+
+Note: This URL works only when the application is running locally.
+
+## 💡 Important Note
+
+This project runs locally. To view the UI dashboard, you need to start the FastAPI server using:
+
+uvicorn src.api.main:app --reload
+
+Then open the browser at:
+
 http://127.0.0.1:8000
 
 
